@@ -1,8 +1,92 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Shoes - Online Shoe Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 1rem;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background-color: #f4f4f4;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Shoes</h1>
+    </header>
 
-    </head>
-    <body>
-        <h1>hello</h1>
-    </body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#kids">Kids</a></li>
+            <li><a href="#sale">Sale</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="/placeholder.svg?height=150&width=150" alt="Running Shoes">
+            <h3>Running Shoes</h3>
+            <p>$99.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="/placeholder.svg?height=150&width=150" alt="Casual Sneakers">
+            <h3>Casual Sneakers</h3>
+            <p>$79.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="/placeholder.svg?height=150&width=150" alt="Formal Shoes">
+            <h3>Formal Shoes</h3>
+            <p>$129.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Awesome Shoes. All rights reserved.</p>
+    </footer>
+</body>
 </html>
